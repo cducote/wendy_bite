@@ -3,8 +3,10 @@ body {
     font-weight: bold;
     padding: 40px;
     border: solid rgb(119,119,119) 5px;
-    margin: 25px;
+    margin: 0 auto;
     color: white;
+    width: 600px;
+    
 }
 main {
     height: 75vh;
@@ -12,11 +14,17 @@ main {
 nav {
     text-align: center;
     padding-bottom: 25px;
+    font-family: sans-serif;
     border-bottom: solid rgb(119,119,119) 1px;
 }
 h1 {
     color: white;
     text-align: center;
+    font-style: italic;
+}
+h2 {
+    font-family: sans-serif;
+    font-size: 24px;
 }
 a {
     color: rgb(127,200,157);
@@ -29,13 +37,19 @@ img {
     padding: 5px;
     border: solid rgb(119,119,119) 1px;
     float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 p {
     font-weight: lighter;
-    
+    line-height: 28px;
+    font-size: 18px;
 }
 footer {
     border-top: solid 1px rgb(119,119,119);
     text-align: center;
     padding-top: 10px;
+}
+footer a {
+    
 }
